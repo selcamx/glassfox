@@ -60,7 +60,7 @@ Chirp is a native macOS app for voice dictation and meeting transcription. It li
 ## Two modes
 
 ### Solo — dictation
-Hold your hotkey, speak, release. Text appears at your cursor as you talk, in any Mac app, with no per-app setup. English, transcribed up to 120× faster than real-time.
+Tap your hotkey, speak, tap again. Text appears at your cursor, in any Mac app, with no per-app setup. English, transcribed up to 120× faster than real-time. (Holding the hotkey is the Meeting Mode gesture.)
 
 ### Meeting — transcription with speakers
 Records your microphone and the meeting's system audio together, then labels who said what. Chirp builds voice profiles that persist across meetings, so the same speaker is recognized next time. Copy the whole transcript, speaker labels intact.
@@ -73,6 +73,7 @@ Records your microphone and the meeting's system audio together, then labels who
 - **Searchable history** — every transcript, with audio playback.
 - **Word-level timestamps** — scrub a long recording to the exact word.
 - **Punctuation and formatting** — transcripts come out punctuated, capitalized, and broken into readable paragraphs, in both modes.
+- **Chirp Intelligence** — turn a transcript into a meeting summary, a cleaned note, or an email draft, and ask typed or spoken questions about it. Runs on your Mac; the original transcript is never altered.
 - **MCP server** — query your transcripts from Claude and other MCP clients.
 - **Notarized and auto-updating** — signed with an Apple Developer ID, updates over Sparkle.
 - **One-time purchase** — every feature and all future updates, no subscription.
@@ -84,17 +85,18 @@ Records your microphone and the meeting's system audio together, then labels who
 
 ## Download
 
-Get the latest `.dmg` from [chirpvoice.com](https://chirpvoice.com/#download) or [GitHub Releases](https://github.com/selcamx/chirp/releases). Free for 7 days, no card required.
+Get the latest `.dmg` from [chirpvoice.com](https://chirpvoice.com/#download) or [GitHub Releases](https://github.com/selcamx/chirp/releases). Every feature is unlocked for 10 days, no account and no card required.
 
 ## Pricing
 
-One-time license. Pay once, use forever.
+One-time license. Pay once, use forever. No subscription, no account.
 
-| Plan | Price | Macs |
-|------|-------|------|
-| Single | $39 | 1 |
-| Double | $69 | 2 |
-| Triple | $99 | 3 |
+| Plan | Price | What you get |
+|------|-------|--------------|
+| Starter | Free, forever | Unlimited Solo dictation, searchable history with tags, and playback of your own recordings |
+| Pro | $39 one-time, up to 3 Macs | Everything in Starter, plus Meeting Mode with speaker identification, the speaker library, Chirp Intelligence, and all future updates |
+
+After the 10-day trial the app doesn't lock — it moves to Starter, and everything already in your history stays where it is.
 
 ## License & support
 

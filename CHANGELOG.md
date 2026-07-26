@@ -217,5 +217,4 @@ All notable changes to Chirp are documented here.
 - Lives in your MacBook notch — always one tap away
 - Searchable history with tags, filters, and audio playback
 - Word-level timestamps with playback highlighting
-- Export to Markdown, SRT subtitles, or plain text
 - Customizable hotkeys and sound effects
