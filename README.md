@@ -29,6 +29,11 @@ Glassfox started as Chirp, a way to dictate and transcribe meetings on a Mac.
 It now connects those recordings with an optional timeline of your work, so you
 can return to what you were doing and ask questions with the relevant context.
 
+<p align="center">
+  <img src=".github/screenshots/welcome.png" width="720" alt="Glassfox dictation setup with the Right Option shortcut and an on-device processing notice">
+  <br><sub>Glassfox 1.6 native setup preview. Choose your shortcut and try dictation.</sub>
+</p>
+
 ## From a recording to the work around it
 
 ### Speak
@@ -51,6 +56,11 @@ Recall is opt-in. Captured text and descriptive context are encrypted on your
 Mac and kept for 30 days by default. You can pause collection, exclude apps,
 change retention, inspect, export, or delete it. Recall does not keep a screenshot
 archive.
+
+<p align="center">
+  <img src=".github/screenshots/recall-setup.png" width="720" alt="Glassfox Recall setup showing local encryption, 30-day retention, optional screen-text capture, and the choice to leave Recall off">
+  <br><sub>Recall setup preview. Collection is optional, with local retention and capture controls.</sub>
+</p>
 
 ### Ask
 
