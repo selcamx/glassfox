@@ -9,7 +9,7 @@
 
 <p align="center">
   A Mac app for dictation, meeting notes, and finding your way back to your work.<br>
-  Transcription runs on your Mac. Ask runs locally by default.
+  Powered by local models. Your work stays on your Mac by default.
 </p>
 
 <p align="center">
