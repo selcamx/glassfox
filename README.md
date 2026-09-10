@@ -40,6 +40,10 @@ call. Saved recordings have searchable transcripts, playback, and tags.
 Solo dictation is free. Live Solo text is also free with the optional live
 component installed and enabled. Meeting Mode is included in Pro.
 
+![Speak showing a sample meeting transcript with two speakers and playback controls](.github/screenshots/speak.png)
+
+*Sample meeting content in the native app.*
+
 ### Recall
 
 Find the page you were reading or the document you had open around a meeting.
@@ -52,7 +56,11 @@ Mac and kept for 30 days by default. You can pause collection, exclude apps,
 change retention, inspect, export, or delete it. Recall does not keep a screenshot
 archive.
 
-### Ask
+![Recall showing a sample project timeline with captured note text open](.github/screenshots/recall.png)
+
+*Sample project activity, with a note open beside the timeline.*
+
+### Chat
 
 Ask about a recording or the Recall context from a day or date range. Add a file
 or your current screen when it helps, then open the sources behind the answer.
@@ -61,6 +69,10 @@ and create daily briefs from Recall.
 
 Ask runs locally by default after its models are downloaded. Optional cloud
 answers use your own API key, with provider charges billed separately.
+
+![Chat answering a question about a sample meeting using the local model](.github/screenshots/chat.png)
+
+*An answer generated on this Mac from the sample meeting transcript, with web search off.*
 
 ## Start free
 
