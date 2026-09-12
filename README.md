@@ -1,4 +1,11 @@
-<h1 align="center">Enzo</h1>
+<p align="center">
+  <a href="https://tryenzo.ai">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/enzo-lockup-light.svg">
+      <img src=".github/enzo-lockup-dark.svg" width="300" alt="Enzo">
+    </picture>
+  </a>
+</p>
 
 <p align="center">
   <b>Your own AI assistant, right on your Mac.</b><br>
@@ -30,7 +37,7 @@ For example: **“What did we agree on, and who owns the next steps?”**
 
 ![Chat answering a question about a sample meeting](.github/screenshots/chat.png)
 
-*Generated locally from a sample meeting, with web search off.*
+*Historical Glassfox preview, generated locally from a sample meeting. This screenshot does not show the current Enzo build.*
 
 ## Speak: turn speech into text and meeting notes
 
@@ -40,7 +47,7 @@ and turn recordings into notes.
 
 ![Speak showing a sample meeting transcript, speaker labels, and playback](.github/screenshots/speak.png)
 
-*Sample meeting content in the native app.*
+*Historical Glassfox preview with sample meeting content.*
 
 ## Recall: find the page or document you had open
 
@@ -54,7 +61,7 @@ There is no screenshot archive.
 
 ![Recall showing a sample project timeline with a note open](.github/screenshots/recall.png)
 
-*Sample project activity with a note open.*
+*Historical Glassfox preview with sample project activity.*
 
 ## Start free
 
