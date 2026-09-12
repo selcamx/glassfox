@@ -1,11 +1,4 @@
-<p align="center">
-  <a href="https://glassfox.ai">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/glassfox-lockup-light.svg">
-      <img src=".github/glassfox-lockup-dark.svg" width="300" alt="Glassfox">
-    </picture>
-  </a>
-</p>
+<h1 align="center">Enzo</h1>
 
 <p align="center">
   <b>Your own AI assistant, right on your Mac.</b><br>
@@ -13,15 +6,15 @@
   Powered by local models. Private by default.
 </p>
 
-> **Glassfox 1.6 preview.** The features, screenshots, and plans below describe the upcoming release. The download currently provides **Chirp 1.5.4**.
+> **Enzo preview, formerly Glassfox and Chirp.** The features, screenshots, and plans below describe the upcoming release. The download currently provides **Chirp 1.5.4**.
 >
-> **Glassfox plans:** Unlimited voice typing, free. Pro is **$39 once**, with a **10-day trial**.
+> **Enzo plans:** Unlimited voice typing, free. Pro is **$39 once**, with a **10-day trial**.
 
 <p align="center">
-  <a href="https://github.com/selcamx/glassfox/releases/latest"><b>Download current release: Chirp 1.5.4</b></a><br>
-  <a href="https://glassfox.ai">Website</a>
-  &nbsp; · &nbsp; <a href="https://github.com/selcamx/glassfox/releases">Release notes</a>
-  &nbsp; · &nbsp; <a href="https://github.com/selcamx/glassfox/issues">Get help</a>
+  <a href="https://github.com/selcamx/enzo/releases/latest"><b>Download current release: Chirp 1.5.4</b></a><br>
+  <a href="https://tryenzo.ai">Website</a>
+  &nbsp; · &nbsp; <a href="https://github.com/selcamx/enzo/releases">Release notes</a>
+  &nbsp; · &nbsp; <a href="https://github.com/selcamx/enzo/issues">Get help</a>
 </p>
 
 <p align="center">
@@ -86,11 +79,11 @@ API key and send your question, recent conversation, and selected text context
 to DeepSeek; provider charges apply. Downloads, updates, licensing,
 and optional analytics also use the internet.
 
-[Read the privacy policy](https://glassfox.ai/privacy).
+[Read the privacy policy](https://tryenzo.ai/privacy).
 
 ## Your first few minutes
 
-Follow Glassfox setup to grant permissions and download models. Dictate a short message
+Follow Enzo setup to grant permissions and download models. Dictate a short message
 with your chosen shortcut, then attach a document in Chat to try Pro.
 Enable Recall when you'd like a work timeline.
 
@@ -99,7 +92,7 @@ Enable Recall when you'd like a work timeline.
 <details>
 <summary>What happened to Chirp?</summary>
 
-Existing Chirp licenses and recordings carry over to Glassfox. Original license
+Existing Chirp licenses and recordings carry over to Enzo. Original license
 activation limits are preserved.
 
 </details>
@@ -132,7 +125,7 @@ according to their own settings.
 
 ## Support
 
-[Report a bug or request a feature](https://github.com/selcamx/glassfox/issues),
+[Report a bug or request a feature](https://github.com/selcamx/enzo/issues),
 or email [hello@glassfox.ai](mailto:hello@glassfox.ai) for private support or billing.
 
 This is the release and issue-tracking repository for a commercial Mac app.
