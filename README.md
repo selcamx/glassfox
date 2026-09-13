@@ -1,71 +1,62 @@
 <p align="center">
-  <a href="https://chirpvoice.com">
+  <a href="https://tryenzo.ai">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/selcamx/chirp/main/.github/wordmark-dark.svg">
-      <img src="https://raw.githubusercontent.com/selcamx/chirp/main/.github/wordmark-light.svg" width="200" alt="Chirp" />
+      <source media="(prefers-color-scheme: dark)" srcset=".github/enzo-lockup-light.svg">
+      <img src=".github/enzo-lockup-dark.svg" width="300" alt="Enzo">
     </picture>
   </a>
-  <br/>
-  On-device voice dictation and meeting transcription for macOS.
 </p>
 
 <p align="center">
-  <a href="https://chirpvoice.com/#download">
-    <img src="https://img.shields.io/badge/Download%20for%20macOS-0B1F1D?style=flat&logo=apple&logoColor=white" alt="Download Chirp for macOS" height="30" />
-  </a>
+  <b>Your own AI assistant, right on your Mac.</b><br>
+  Dictate into your apps, turn meetings into useful notes, and ask questions about your documents and work.<br>
+  Powered by local models. Private by default.
+</p>
+
+> **Enzo preview, formerly Glassfox and Chirp.** The features, screenshots, and plans below describe the upcoming release. The download currently provides **Chirp 1.5.4**.
+>
+> **Enzo plans:** Unlimited voice typing, free. Pro is **$39 once**, with a **10-day trial**.
+
+<p align="center">
+  <a href="https://github.com/selcamx/enzo/releases/latest"><b>Download current release: Chirp 1.5.4</b></a><br>
+  <a href="https://tryenzo.ai">Website</a>
+  &nbsp; · &nbsp; <a href="https://github.com/selcamx/enzo/releases">Release notes</a>
+  &nbsp; · &nbsp; <a href="https://github.com/selcamx/enzo/issues">Get help</a>
 </p>
 
 <p align="center">
-  <a href="https://chirpvoice.com">Website</a> &middot;
-  <a href="https://chirpvoice.com/#download">Download</a> &middot;
-  <a href="https://github.com/selcamx/chirp/releases">Releases</a> &middot;
-  <a href="CHANGELOG.md">Changelog</a>
+  <sub>Apple Silicon (M1 or newer) · macOS 15+ · English dictation and meetings</sub>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/platform-macOS-000?logo=apple&logoColor=white" alt="macOS" />
-  <img src="https://img.shields.io/badge/Apple_Silicon-optimized-4FD1C5" alt="Apple Silicon" />
-  <img src="https://img.shields.io/github/v/release/selcamx/chirp?color=4FD1C5&label=version" alt="Latest version" />
-  <img src="https://img.shields.io/github/downloads/selcamx/chirp/total?color=4FD1C5&label=downloads" alt="Total downloads" />
-</p>
+## Chat: ask questions about your work
 
----
+Ask about a document, recording, or your current screen, then inspect the sources
+behind the answer. Chat works without meeting recordings or Recall.
 
-<!-- HERO DEMO — the centerpiece. Record a ~10s clip of the notch lighting up and
-     text appearing live at the cursor; frame just the notch + the target app (not
-     the full screen) so it's legible. Save as .github/demo.gif (~2:1, loops, keep
-     it under ~8 MB), then uncomment:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/selcamx/chirp/main/.github/demo.gif" width="760" alt="Text appears at your cursor as you speak" />
-</p>
--->
+For example: **“What did we agree on, and who owns the next steps?”**
 
-Chirp is a native macOS app for voice dictation and meeting transcription. It lives in your MacBook's notch and stays out of the way until you need it. Speech is transcribed on-device — your audio and text never leave your Mac — and it's a one-time purchase, with no subscription and no account.
+![Chat answering a question about a sample meeting](.github/screenshots/chat.png)
 
-## Inside the app
+*Historical Glassfox preview, generated locally from a sample meeting. This screenshot does not show the current Enzo build.*
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/selcamx/chirp/main/.github/history.png" alt="History — searchable transcripts with playback" /><br/>
-      <sub><b>History</b> — every transcript, searchable, with audio playback</sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/selcamx/chirp/main/.github/speakers.png" alt="Speaker library" /><br/>
-      <sub><b>Speaker library</b> — voices remembered across meetings</sub>
-    </td>
-  </tr>
-</table>
+## Speak: turn speech into text and meeting notes
 
-## Two modes
+Dictate an email into your app, or record a meeting with microphone and call audio.
+Get speaker labels without a meeting bot. Search transcripts, replay a moment,
+and turn recordings into notes.
 
 ### Solo — dictation
 Tap your hotkey, speak, tap again. Text appears at your cursor, in any Mac app, with no per-app setup. English, transcribed up to 120× faster than real-time. (Holding the hotkey is the Meeting Mode gesture.)
 
-### Meeting — transcription with speakers
-Records your microphone and the meeting's system audio together, then labels who said what. Chirp builds voice profiles that persist across meetings, so the same speaker is recognized next time. Copy the whole transcript, speaker labels intact.
+![Speak showing a sample meeting transcript, speaker labels, and playback](.github/screenshots/speak.png)
 
-## What's included
+*Historical Glassfox preview with sample meeting content.*
+
+## Recall: find the page or document you had open
+
+Find a proposal you read earlier or revisit the work around a meeting. Recall
+saves a timeline of apps and readable context you can inspect or ask about.
+It works independently of recording.
 
 - **Runs on-device** — audio and text never leave your Mac. No account, no cloud.
 - **Lives in the notch** — one tap to start, invisible the rest of the time.
@@ -78,16 +69,28 @@ Records your microphone and the meeting's system audio together, then labels who
 - **Notarized and auto-updating** — signed with an Apple Developer ID, updates over Sparkle.
 - **One-time purchase** — every feature and all future updates, no subscription.
 
-## Requirements
+Recall starts off. Captured context is encrypted locally and kept for 30 days by
+default. You control collection, app exclusions, retention, export, and deletion.
+There is no screenshot archive.
 
-- macOS 15 (Sequoia) or later
-- Apple Silicon (M1 or later)
+![Recall showing a sample project timeline with a note open](.github/screenshots/recall.png)
 
-## Download
+*Historical Glassfox preview with sample project activity.*
+
+## Start free
 
 Get the latest `.dmg` from [chirpvoice.com](https://chirpvoice.com/#download) or [GitHub Releases](https://github.com/selcamx/chirp/releases). Every feature is unlocked for 10 days, no account and no card required.
 
-## Pricing
+| Starter, free with no expiry | Pro, $39 once |
+| --- | --- |
+| Unlimited voice typing | Everything in Starter |
+| Saved recordings, transcript search, playback, and tags | Meeting recording with speaker labels |
+| Today's Recall timeline and earlier-day app activity overviews | Full retained Recall history and context search |
+| Recall privacy, retention, and export controls | New Chat answers, notes, drafts, and daily briefs |
+
+The **10-day Pro trial** starts with intentional Pro use, not setup or downloads.
+No card or account required. Saved recordings and generated results stay readable
+after the trial ends.
 
 One-time license. Pay once, use forever. No subscription, no account.
 
@@ -98,15 +101,62 @@ One-time license. Pay once, use forever. No subscription, no account.
 
 After the 10-day trial the app doesn't lock — it moves to Starter, and everything already in your history stays where it is.
 
-## License & support
+Dictation, meeting transcription, speaker recognition, and Recall collection run
+on your Mac. Chat also runs locally by default, using downloaded models.
 
-Commercial macOS app. Questions, billing, or feedback: hello@chirpvoice.com
+You can enable web research or cloud answers. Cloud answers use your own DeepSeek
+API key and send your question, recent conversation, and selected text context
+to DeepSeek; provider charges apply. Downloads, updates, licensing,
+and optional analytics also use the internet.
 
-<!-- STAR HISTORY — flip on once the repo has some star slope (it's a flat line on
-     a young repo). Then uncomment:
-## Star history
+[Read the privacy policy](https://tryenzo.ai/privacy).
 
-<a href="https://star-history.com/#selcamx/chirp&Date">
-  <img src="https://api.star-history.com/svg?repos=selcamx/chirp&type=Date" width="600" alt="Star history" />
-</a>
--->
+## Your first few minutes
+
+Follow Enzo setup to grant permissions and download models. Dictate a short message
+with your chosen shortcut, then attach a document in Chat to try Pro.
+Enable Recall when you'd like a work timeline.
+
+## A few useful details
+
+<details>
+<summary>What happened to Chirp?</summary>
+
+Existing Chirp licenses and recordings carry over to Enzo. Original license
+activation limits are preserved.
+
+</details>
+
+<details>
+<summary>What does the Pro license cover?</summary>
+
+One active Mac, transferable, with future updates included. Pro can use retained
+Recall context collected on Starter; it cannot recover missing or deleted activity.
+
+</details>
+
+<details>
+<summary>Can I see dictation as I speak?</summary>
+
+Yes. Install and enable the optional live-transcription component. Live voice
+typing is free; meetings require Pro or its trial.
+
+</details>
+
+<details>
+<summary>What leaves my Mac when I enable connections?</summary>
+
+Cloud context can include text from recordings, Recall, files, or your screen,
+but not raw audio, files, or images. Web research sends search queries and fetches
+pages. External assistants connected through MCP handle transcript excerpts
+according to their own settings.
+
+</details>
+
+## Support
+
+[Report a bug or request a feature](https://github.com/selcamx/enzo/issues),
+or email [hello@glassfox.ai](mailto:hello@glassfox.ai) for private support or billing.
+
+This is the release and issue-tracking repository for a commercial Mac app.
+The app's source code is not published here.
